@@ -27,9 +27,6 @@ img {
 .navigation {
     display: flex;
     align-items: center;
-    position: relative;
-    color: #404BBF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -72,6 +69,9 @@ img {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    position: relative;
+    color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation .chapter:hover {
@@ -102,6 +102,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -232,7 +233,10 @@ ul {
     color: #434455;
 
 }
-
+.icon-rss {
+    width: 64;
+    height: 64;
+}
 
 
 

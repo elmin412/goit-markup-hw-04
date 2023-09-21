@@ -313,7 +313,7 @@ ul {
 .link-icon {
     width: 40px;
     height: 40px;
-    
+
 }
 
 .img-leader {
@@ -371,6 +371,7 @@ ul {
 .img-prod {
     position: relative;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .frtala {
@@ -427,9 +428,15 @@ ul {
     align-items: baseline;
 }
 
+.all-foot-cont {
+    display: flex;
+    align-items: baseline;
+}
+
 .logo-item {
     margin-right: 120px;
 }
+
 
 .logo-nav {
     display: inline-block;
@@ -446,10 +453,6 @@ ul {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-
-.container {
-
 }
 
 .container {

@@ -314,6 +314,10 @@ ul {
     text-align: center;
 }
 
+.clique {
+
+}
+
 .list-social-media {
     display: flex;
     justify-content: center;
@@ -322,8 +326,13 @@ ul {
 }
 
 .link-icon {
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -475,8 +484,6 @@ ul {
 
 }
 
-
-
 .social-item {
     font-weight: 500;
     font-size: 16px;
@@ -484,7 +491,6 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-
 }
 
 .social-list {
@@ -519,7 +525,8 @@ ul {
     background-color: #31d0aa;
 }
 
-.icon-social {
+.fragrant {
     width: 40px;
     height: 40px;
 }
+

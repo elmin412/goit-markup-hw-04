@@ -423,7 +423,7 @@ ul {
 
 }
 
-.project-list .frtala :hover {
+.project-list :hover .frtala {
     transform: translateY(0%);
 }
 

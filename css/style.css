@@ -312,6 +312,7 @@ ul {
     color: #434455;
     text-align: center;
 }
+
 .clique {}
 
 .clique .list-social-media {
@@ -530,6 +531,7 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 
 .social-list {

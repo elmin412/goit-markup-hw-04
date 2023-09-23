@@ -423,6 +423,10 @@ ul {
 
 }
 
+.project-list .frtala :hover {
+    transform: translateY(0%);
+}
+
 .img-prod {
     position: relative;
     overflow: hidden;
@@ -433,9 +437,6 @@ ul {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img-prod :hover {
-    transform: translateY(0%);
-}
 
 .frtala {
     position: absolute;

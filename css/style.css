@@ -325,6 +325,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 24px;
+   
 }
 
 
@@ -336,6 +337,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -421,6 +423,10 @@ ul {
 
 }
 
+.project-list :hover {
+    transform: translateY(0%);
+}
+
 .img-prod {
     position: relative;
     overflow: hidden;
@@ -436,7 +442,7 @@ ul {
 }
 
 .frtala {
-    /* position: absolute; */
+    position: absolute;
     top: 0;
     font-size: 16px;
     line-height: 1.5;
@@ -560,22 +566,20 @@ ul {
 }
 
 
-.link-contacts :hover {
-    background-color: #31d0aa;
-}
 
-.link-contacts :focus {
-    background-color: #31d0aa;
-}
-
-.colon {
-    
-}
 
 .fragrant {   
      width: 40px;
      height: 40px;
-     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2 ,1);
+}
+
+.fragrant :hover {
+    background-color: #31d0aa;
+}
+
+.fragrant :focus {
+    background-color: #31d0aa;
 }
 
 .icon-social {

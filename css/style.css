@@ -314,8 +314,6 @@ ul {
     text-align: center;
 }
 
-
-
 .kinship {
     width: 40px;
     height: 40px;
@@ -429,6 +427,10 @@ ul {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.regard :hover {
+    transform: translateY(0%);
+}
+
 .frtala {
     position: absolute;
     top: 0;
@@ -518,9 +520,6 @@ ul {
     max-width: 264px;
 }
 
-.container {
-
-}
 
 .social-item {
     font-weight: 500;
@@ -552,21 +551,27 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 
 }
 
 
-.fragrant .link-contacts :hover {
+.link-contacts :hover {
     background-color: #31d0aa;
 }
 
-.fragrant .link-contacts :focus {
+.link-contacts :focus {
     background-color: #31d0aa;
+}
+
+.colon {
+    
 }
 
 .fragrant {   
      width: 40px;
-    height: 40px;
+     height: 40px;
+     transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
 .icon-social {

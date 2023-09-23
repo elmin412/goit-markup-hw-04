@@ -313,6 +313,12 @@ ul {
     text-align: center;
 }
 
+.list-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 .kinship {
     width: 40px;
     height: 40px;
@@ -320,6 +326,7 @@ ul {
     justify-content: center;
     gap: 24px;
 }
+
 
 .shrink {
     width: 100%;
@@ -332,11 +339,12 @@ ul {
 
 }
 
-.shrink :hover {
+
+.kinship :hover {
     background-color: #404bbf;
 }
 
-.shrink :focus {
+.kinship :focus {
     background-color: #404bbf;
 }
 

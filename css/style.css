@@ -568,6 +568,7 @@ ul {
 }
 
 
+
 .social-item {
     font-weight: 500;
     font-size: 16px;
@@ -603,6 +604,7 @@ ul {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    fill: #f4f4fd;
 
 }
 
@@ -611,9 +613,6 @@ ul {
     border-radius: 50%;
 }
 
-.colon {
-    fill: #f4f4fd;
-}
 
 .accommodate {
     margin-left: auto;
@@ -911,7 +910,7 @@ ul {
 
 }
 
-.megami {}
+
 
 .mutaxe {
     margin-bottom: auto;
@@ -964,7 +963,6 @@ ul {
 
 }
 
-.social-list {}
 
 
 .link-cont {
